@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
   backgroundImage:{
-    'uber' : "url('/src/assets/bguber.png')",
-    'city' : "url('/src/assets/bg-city.png')",
+    'uber' : "url('/assets/bguber.png')",
+    'city' : "url('/assets/bg-city.png')",
   }
 
     },
